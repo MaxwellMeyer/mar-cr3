@@ -51,7 +51,8 @@ The user will be able to enter a number, which will then be returned back to the
 
 ## Known Bugs
 
-
+* User can leave form blank and still submit the form.
+* Entering a negative number will not return a result.
 
 
 ## License Information
