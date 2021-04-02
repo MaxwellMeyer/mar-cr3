@@ -20,7 +20,7 @@ function mrRoboto(N) {
   return neighborhood
 }
 $(document).ready(function(){
-  $("form#rogerForm").submit(function(event){
+  $("#rogerForm").submit(function(event){
     event.preventDefault();
     let newNeighbor = $("input#username").val();
     let X =$("input#numb").val();
@@ -30,8 +30,8 @@ $(document).ready(function(){
       $("#results").show();
       $(".again").click(function(event) {
         event.preventDefault();
-        //$("form#rogerForm").reset();
         $("#results").hide();
+        $("#rogerForm")[0].reset();
       })
   });
 });
