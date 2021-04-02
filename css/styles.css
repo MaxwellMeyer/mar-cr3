@@ -1,0 +1,9 @@
+#results {
+  display: none;
+}
+body {
+  text-align: center;
+}
+.jumbotron {
+  border-radius: 50%;
+}
