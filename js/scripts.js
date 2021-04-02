@@ -5,16 +5,16 @@ function mrRoboto(N) {
   for (let i=0; i <= N; i ++) {
     rogersArray.push(i.toString());
     if (rogersArray[i].includes("3")) {
-      neighborhood.push("Won't you be my neighbor?");
+      neighborhood.push(" Won't you be my neighbor?");
     }
     else if (rogersArray[i].includes("2")) {
-      neighborhood.push("Boop! ");
+      neighborhood.push(" Boop!");
     }
     else if (rogersArray[i].includes("1")) {
-      neighborhood.push("Beep! ");
+      neighborhood.push(" Beep! ");
     }
     else {
-      neighborhood.push(rogersArray[i]+ ",");
+      neighborhood.push(" " + rogersArray[i]);
     }      
   } 
   return neighborhood
