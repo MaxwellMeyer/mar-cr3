@@ -7,11 +7,40 @@ body {
   text-align: center;
   background-image: url("/img/rog.png");
   background-size: cover;
-  
+}
+.butt {
+  margin-top: 35px;
+  margin-bottom: 25px;
+  padding: 20px 20px;
+  border-radius: 50%;
+  background: linear-gradient(to right, rgb(255, 247, 0), rgb(255, 0, 119));
+  font-weight: bold;
+  color: rgb(0, 72, 255);
+  text-shadow: 1px 1px cyan;
+}
+.butt:hover {
+  margin-top: 35px;
+  margin-bottom: 25px;
+  padding: 20px 20px;
+  border-radius: 50%;
+  background: linear-gradient(to right, rgb(255, 0, 119), rgb(255, 247, 0));
+  font-weight: bold;
+  color: rgb(0, 72, 255);
+  text-shadow: 1px 1px cyan;
+}
+.butt:active {
+  background: rgb(5, 255, 5);
 }
 .jumbotron {
   border-radius: 50%;
   background: linear-gradient(to right, rgb(0, 174, 255), rgb(0, 136, 255), rgb(170, 0, 255));
-  color: rgb(255, 0, 98);
-  text-shadow: 1px 1px yellow;
+  color: rgb(21, 251, 255);
+  text-shadow: 1.5px 2px rgb(255, 0, 0);
+  opacity: .9;
+}
+.content {
+  background:linear-gradient(to right, rgb(0, 174, 255), rgb(0, 136, 255), rgb(170, 0, 255));
+  color: rgb(21, 251, 255);
+  text-shadow: 1.5px 2px rgb(255, 0, 0);
+  opacity: .8;
 }
