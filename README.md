@@ -31,8 +31,8 @@ The user will be able to enter a number, which will then be returned back to the
 
 
 1. Follow link to my Github repo and/or GH-Pages.
-2. Link to GH-Pages is found [here](https://maxwellmeyer.github.io/mar-cr2)
-3. Alternatively, clone the repository (navigate to the root directory of whatever project file you wish to save into and run ~git clone~ in the terminal) from GH via [this link](https://github.com/MaxwellMeyer/mar-cr2.git), and open in browser via live server.
+2. Link to GH-Pages is found [here](https://maxwellmeyer.github.io/mar-cr3)
+3. Alternatively, clone the repository (navigate to the root directory of whatever project file you wish to save into and run ~git clone~ in the terminal) from GH via [this link](https://github.com/MaxwellMeyer/mar-cr3.git), and open in browser via live server.
 
 
 ## Specifications: 
