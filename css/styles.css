@@ -30,6 +30,7 @@ body {
 }
 .butt:active {
   background: rgb(5, 255, 5);
+  color: rgb(255, 0, 119);
 }
 .jumbotron {
   border-radius: 50%;
@@ -54,6 +55,7 @@ body {
   font-weight: bold;
   color: rgb(0, 72, 255);
   text-shadow: 1px 1px cyan;
+  opacity: 1;
 }
 .again:hover {
   margin-top: 35px;
@@ -62,7 +64,7 @@ body {
   border-radius: 50%;
   background: linear-gradient(to right, rgb(255, 0, 119), rgb(255, 247, 0));
   font-weight: bold;
-  color: rgb(0, 72, 255);
+  color: rgb(255, 0, 200);
   text-shadow: 1px 1px cyan;
 }
 .again:active {

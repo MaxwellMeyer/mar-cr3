@@ -27,11 +27,11 @@ $(document).ready(function(){
     let newSweater = mrRoboto(X);
     $("#mrRogers").text(newSweater);
     $("#newNeighbor").text(newNeighbor);
-      $("#results").show();
-      $(".again").click(function(event) {
-        event.preventDefault();
-        $("#results").hide();
-        $("#rogerForm")[0].reset();
-      })
+    $("#results").show();
+    $(".again").click(function(event) {
+      event.preventDefault();
+      $("#results").hide();
+      $("#rogerForm")[0].reset();
+    })
   });
 });
