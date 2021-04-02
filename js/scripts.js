@@ -28,9 +28,10 @@ $(document).ready(function(){
     $("#mrRogers").text(newSweater);
     $("#newNeighbor").text(newNeighbor);
       $("#results").show();
+      $(".again").click(function(event) {
+        event.preventDefault();
+        //$("form#rogerForm").reset();
+        $("#results").hide();
+      })
   });
 });
-$(".again").click(function(event) {
-  $("#rogerForm").reset();
-  $("#results").hide();
-})
