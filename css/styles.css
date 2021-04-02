@@ -31,10 +31,6 @@ body {
 .butt:active {
   background: rgb(5, 255, 5);
 }
-.again {
-  padding: 15px 15px;
-  border-radius: 50%;
-}
 .jumbotron {
   border-radius: 50%;
   background: linear-gradient(to right, rgb(0, 174, 255), rgb(0, 136, 255), rgb(170, 0, 255));
@@ -43,6 +39,7 @@ body {
   opacity: .9;
 }
 .content {
+  padding-top: 30px;
   background:linear-gradient(to right, rgb(0, 174, 255), rgb(0, 136, 255), rgb(170, 0, 255));
   color: rgb(21, 251, 255);
   text-shadow: 1.5px 2px rgb(255, 0, 0);
