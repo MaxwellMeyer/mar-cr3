@@ -31,6 +31,10 @@ body {
 .butt:active {
   background: rgb(5, 255, 5);
 }
+.again {
+  padding: 15px 15px;
+  border-radius: 50%;
+}
 .jumbotron {
   border-radius: 50%;
   background: linear-gradient(to right, rgb(0, 174, 255), rgb(0, 136, 255), rgb(170, 0, 255));

@@ -30,3 +30,7 @@ $(document).ready(function(){
       $("#results").show();
   });
 });
+$(".again").click(function(event) {
+  $("#rogerForm").reset();
+  $("#results").hide();
+})
